@@ -1,1 +1,1 @@
-This repo consists of works and challenges from the Frontend Mentor website.
+This repository encompasses projects and tasks derived from the Frontend Mentor website, showcasing a compilation of completed works and undertaken challenges.
