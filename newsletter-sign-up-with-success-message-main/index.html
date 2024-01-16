@@ -7,46 +7,53 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
-  <!-- Sign-up form start -->
-
-  Stay updated!
-
-  Join 60,000+ product managers receiving monthly updates on:
-
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
-
-  Email address
-  email@company.com
-
-  Subscribe to monthly newsletter
-
-  <!-- Sign-up form end -->
-
-  <!-- Success message start -->
-
-  Thanks for subscribing!
-
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
-
-  Dismiss message
-
-  <!-- Success message end -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+ 
+  <div class="container" id="container">
+    <div class="textbox">
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+     
+        
+          <li> Product discovery and building what matters.</li>
+          <li> Measuring to ensure updates are a success.</li>
+          <li> And much more!</li>
+        
+      
+      <div class="mail">
+        <h3>Email address</h3>
+        <input type="text" id="email" class="Email" placeholder="Email here">
+      </div>
+      <button type="submit">Subscribe to my monthly newsletter</button>
+      
+    </div>
+    <div class="imagebox">
+      <img src="assets/images/illustration-sign-up-desktop.svg" alt="picture">
+    </div>
+    
+    
   </div>
+  
+
+    <div class="thanksbox" id="thanksbox">
+      <div class="image">
+        
+        <img src="./assets/images/icon-success.svg" alt="done">
+    </div>
+    <div class="contentinthanks">
+      
+      <h4>Thank you for subscribing!</h4>
+      <p>You should receive a confirmation email at your registered email address soon.</p>
+    </div>
+    <div class="okay">
+      
+      <button type="submit">Dismiss Message</button>
+    </div>
+  </div>
+
 </body>
-</html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src=index.js></script>
+  </html>
