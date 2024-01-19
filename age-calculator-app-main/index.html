@@ -10,25 +10,57 @@
   <link rel="stylesheet" href="calc.css">
 </head>
 <body>
-  <div class="main">
+  <div class="container">
 
-    Day
-    DD
-    
-    Month
-    MM
-    
-    Year
-    YYYY
-    
-    -- years
-    -- months
-    -- days
-    
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="insertbox">
+           
+      <div>
+
+        <label>DAY</label><br>
+        <input type="number" placeholder="DD" name="day">
+      </div>
+    <div>  
+      <label>MONTH</label><br>
+      <input type="number" placeholder="MM" name="month">
+    </div>
+      <div>
+
+        <label>YEAR</label><br>
+        <input type="number" placeholder="YYYY" name="year">
+        
+      </div>
+        
+      </div>
+     
+
+        
+          <div class="btn">
+            <div class="name">
+              <h1>Mingo!</h1>
+            </div>
+            <div class="glass">
+
+              <button class="left" onclick="calculateAge()">''
+              </button>
+              
+              <button class="right" onclick="calculateAge()">"
+              </button>
+            </div>    
+          </div>
+          
+        
+        
+        
+      
+     
+     <div class="showbox">
+    <p>
+
+      -- Months
+      -- Days
+      -- Years
+    </p>
+    </div>
   </div>
 </body>
 </html>

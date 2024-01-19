@@ -1,0 +1,162 @@
+
+@font-face {
+    font-family: "regular";
+    src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "italic";
+    src: url("./assets/fonts/Poppins-Italic.ttf");
+}
+
+@font-face {
+    font-family: "bold";
+    src: url("./assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "BI";
+    src: url("./assets/fonts/Poppins-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "ExBI";
+    src: url("./assets/fonts/Poppins-ExtraBoldItalic.ttf");
+}
+@font-face {
+    font-family: "ExB";
+    src: url("./assets/fonts/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "VC";
+    src: url("./assets/fonts/RespondentBlack_PERSONAL_USE_ONLY.otf");
+}
+
+body{
+    display: grid;
+    place-items: center;
+
+}
+
+.container {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+height: 50%;
+width: 50%;
+margin:6%;
+/* outline: 1px solid purple; */
+}
+
+.insertbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+    width: 80%;
+    margin: 1%;
+    /* outline: 1px solid yellowgreen; */
+
+}
+
+input{
+    border-color: #1c020e;
+    padding: 2%;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    padding: 10%;
+    font-size: large;
+    font-family: "bold";
+    /* outline: 1px solid blue; */
+}
+
+label{
+    font-family: "regular";
+    letter-spacing:.2cm;
+    font-size: small;
+}
+
+p{
+    font-family: "ExBI";
+    font-size: 40px;
+}
+
+
+.btn{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 5%;
+    padding:2%;
+    /* outline: 1px solid red; */
+    background-color:#f878b8;
+    /* outline: 1px solid red; */
+    
+    
+}
+
+.name{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    height: 100%;
+    
+    
+}
+h1{
+
+    font-family:"VC";
+    font-size: 50px;
+    margin: 1%;
+    color: #821142;
+    
+}
+.glass{
+    width:60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid red; */
+}
+Button{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    cursor: pointer;
+    
+    margin: 2%;
+    padding: 3%;
+    width:25%;
+    
+    border-color: white;
+    /* box-shadow: white; */
+    box-shadow: #51c902;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.84);
+    
+}
+
+.left
+{
+    background: linear-gradient(to right,#ff83c3,#970e4a);
+    border-radius: 0rem 5rem 0rem 5rem;
+
+}
+.right{
+    background: linear-gradient(to left,#ff83c3,#970e4a);
+    border-radius: 5rem 0rem 5rem 0rem;
+}
+
+.left:hover {
+    background: linear-gradient(to right,#fe47a6,#821142);
+    box-shadow: 0 4px 8px #420045 ;
+  }
+
+  .right:hover{
+    background: linear-gradient(to left,#fe47a6,#821142);
+    box-shadow: 0 4px 8px #420045 ;
+  }
